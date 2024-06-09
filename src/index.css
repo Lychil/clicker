@@ -1,0 +1,27 @@
+* {
+    padding: 0 0;
+    margin: 0 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+}
+
+div::-webkit-scrollbar {
+    width: 12px;
+    /* ширина scrollbar */
+}
+
+div::-webkit-scrollbar-track {
+    background: white;
+    border: 1px solid black;
+    /* цвет дорожки */
+}
+
+div::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    /* закругления плашки */
+    border: 1px solid black;
+    /* padding вокруг плашки */
+}
